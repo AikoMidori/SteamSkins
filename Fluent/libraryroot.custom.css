@@ -1,0 +1,468 @@
+/* !!! DO NOT EDIT THESE !!! DO NOT EDIT THESE !!! */
+@import url('https://shiinaskins.com/steam-library/remote!url=master&css/live.css');
+@import url('config.css');
+/* !!! DO NOT EDIT THESE !!! DO NOT EDIT THESE !!! */
+
+*{  /* Disable Shadows & Transitions */
+    transition: 0s !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; 
+}
+
+/* ===== CREDITS  =====
+/* Shiina♪#9670
+/* DISCORD: https://discord.gg/UZvkvkh
+/* GITHUB: https://github.com/AikoMidori/
+/* -------------------------------------------------------------------------------------------
+/* © 2021 All Rights Reserved. Created by Shiina♪
+/**/
+
+/* New steam theme */
+:root {
+  --darksky: #191919;
+  --starrynight: #1E1E1E;
+  --slowevening: #2e2e2f;
+  --betablue: #115CCC;
+  --deepsea: #182133;
+  --walkytalky: #fff;
+  --borderpatrol: #242424;
+  --transtrollor: #ffffff80;
+}
+
+/* old root menu button */
+.rootmenu_SteamButton_bSKGl::before {
+  display: none;
+}  
+
+/* old root menu button */
+.rootmenu_SteamButton_bSKGl {
+  content: none !important;
+  display: none !important;
+}
+
+/* Root menu button */
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(1)::after {
+  content: "Fluent for Steam" !important;
+  margin-left: 30px !important;
+  font-size: 13px !important;
+}
+
+/* root menu button image */
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(1) {
+  margin-top: 1px !important;
+  line-height: 5px !important;
+  margin-right: 40px !important;
+  font-size: 0px !important;
+  background-repeat: no-repeat !important;
+  background-image: url("https://svgshare.com/i/seM.svg") !important;
+  background-size: 24px !important;
+}
+
+/* Root menu button */
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(2)::after {
+  content: "" !important;
+  margin-left: 30px !important;
+  font-size: 13px !important;
+  color: white !important;
+}
+
+/* root menu button image */
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(2) {
+  margin-top: 70px !important;
+  line-height: 1px !important;
+  right: 0 !important;
+  position: absolute !important;
+  margin-right: 405px !important;
+  font-size: 0px !important;
+  background-repeat: no-repeat !important;
+  filter: invert(60%) !important;
+  padding: 10px 0px 0px 0px !important;
+  background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/More%20Horizontal/SVG/ic_fluent_more_horizontal_24_filled.svg") !important;
+  background-size: 24px !important;
+}
+
+/* root menu button image */
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(2):hover {
+  filter: invert(100%) !important;
+}
+ 
+/* -------------------------EXPIRIMENTAL-------------------------*/
+.bottombar_AddGameButton_2foCk .bottombar_Icon_1KrJ3 {
+  /* hide old navbar icons */
+  display: none;
+}
+/* -------------------------EXPIRIMENTAL-------------------------*/
+/* -------------------------EXPIRIMENTAL-------------------------*/
+/* -------------------------EXPIRIMENTAL-------------------------*/
+.bottombar_AddGameButton_2foCk  {
+  /* new navbar icons, reposition bottom bar items in the top */
+  background-repeat: no-repeat !important;
+  background-image: url("https://svgshare.com/i/sg5.svg") !important;
+  background-size: 24px !important;
+  margin-top: 3px !important;
+  line-height: 20px !important;
+  margin-right: 20px !important;
+  padding: 0 0 0 0 !important;
+  background-color: var(--darksky) !important;
+  min-width: 24px !important;
+  min-height: 30px !important;
+  max-height: 30px !important;
+  border-radius: 4px !important;
+  -webkit-app-region: no-drag !important;
+}
+
+.bottombar_FriendsButton_1TdaA .bottombar_Icon_1KrJ3 {
+  /* hide old navbar icons */
+  display: none;
+}
+
+.bottombar_FriendsButton_1TdaA {
+  /* new navbar icons, reposition bottom bar items in the top */
+  background-repeat: no-repeat !important;
+  background-image: url("https://svgshare.com/i/sgV.svg") !important;
+  background-size: 24px !important;
+  margin-right: 5px !important;
+  margin-bottom: -10px !important;
+  padding: 0 0 0 0 !important;
+  margin-left: 7px !important;
+  background-color: var(--darksky) !important;
+  min-width: 24px !important;
+  min-height: 30px !important;
+  max-height: 30px !important;
+  border-radius: 4px !important;
+  margin-top: -8px !important;
+  -webkit-app-region: no-drag !important;
+}
+
+.bottombar_FriendsButton_1TdaA:hover {
+  background-image: url("https://svgshare.com/i/sgV.svg") !important;
+}
+
+.bottombar_DownloadStatusContent_ip-YZ .bottombar_Icon_1KrJ3 {
+  /* hide old navbar icons */
+  display: none;
+}
+
+/* Downloads button icon */
+.bottombar_DownloadStatusContent_ip-YZ {
+  background-repeat: no-repeat !important;
+  background-image: url("https://svgshare.com/i/sfj.svg") !important;
+  background-size: 24px !important;
+  margin-top: 5px !important;
+}
+
+.progressbar_ProgressBar_yZ55N {
+  width: 70% !important;
+  margin-left: 25px !important;
+}
+
+
+.titlebarcontrols_NotificationsButton_RtSv3 .titlebarcontrols_Icon_34bQc {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+/* Downloads button */
+.bottombar_DownloadStatus_2EQ7g {
+  padding: 0 6px 0 3px !important;
+  background-color: var(--darksky) !important;
+  min-width: 24px !important;
+  min-height: 30px !important;
+  max-height: 30px !important;
+  border-radius: 4px !important;
+  right: 0 !important;
+  margin-right: 175px !important;
+  position: fixed !important;
+  margin-top: -8px !important;
+  -webkit-app-region: no-drag !important;
+}
+
+/* Downloads Text */
+.bottombar_DownloadStatusContent_ip-YZ .bottombar_Queue_3wJnT::after {
+  content: "Downloads" !important;
+  font-size: 13px !important;
+  padding-left: 30px;
+  color: white !important;
+}
+
+/* -------------------------EXPIRIMENTAL-------------------------*/
+  
+/* old root menu buttons removed */
+/* [class*="rootmenu_RootMenuButton_"]:nth-of-type(2), */ [class*="rootmenu_RootMenuButton_"]:nth-of-type(3), [class*="rootmenu_RootMenuButton_"]:nth-of-type(4), [class*="rootmenu_RootMenuButton_"]:nth-of-type(5) {
+  display: none !important;
+}
+
+/* window resize grip */
+.window_resize_grip {
+  background-image: none !important;
+}
+
+/* Steam Background color */
+.steamdesktop_TopBar_3Z7VQ {
+    background: var(--darksky) !important;
+    box-shadow: none !important;
+}
+
+
+.steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s {
+  display: none !important;
+}
+
+.steamdesktop_SuperNavBar_3Z3oh {
+  height: 34px !important;
+  min-height: 34px !important;
+}
+
+.supernav_SuperNav_2D64j {
+  margin-top: -3px !important;
+}
+
+.supernav_SuperNavMenu_7AlhC .supernav_MenuButton_19axK {
+  color: var(--transtrollor) !important;
+}
+
+.supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK, .supernav_MenuButton_19axK:hover {
+  /* background: #1e1e2f !important; */
+  border-radius: 6px !important;
+  padding: 0px 3px 5px 3px !important;
+  color: var(--walkytalky) !important;
+}
+
+.supernav_MenuButton_19axK {
+  padding: 0px 3px 5px 3px !important;
+}
+
+.supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK::after {
+  margin-top: 4px !important;
+  height: 4px !important;
+  width: 90% !important;
+  margin-left: 5% !important;
+  background: var(--betablue) !important;
+}
+
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8:hover {
+  background: var(--darksky) !important;
+}
+
+.supernav_Arrow_25lBL {
+  margin-right: 2px !important;
+}
+
+.supernav_SuperNavMenu_7AlhC {
+  padding: 0 5px !important;
+  font-size: 13px !important;
+  margin-top: 10px !important;
+}
+
+.steamdesktop_LocalContentContainer_RGNMW .steamdesktop_URLBarReplacement_2Cmrn {
+  display: none !important;
+}
+
+/* lets keep the notification button */
+.titlebarcontrols_NotificationsButton_RtSv3 {
+  border-radius: 4px !important;
+  margin-top: 4px !important;
+  height: 30px !important;
+  background: var(--darksky) !important;
+  color: var(--walkytalky) !important;
+}
+
+/* announcements are lame */
+.titlebarcontrols_AnnouncementsButton_5wILZ {
+  display: none !important;
+}
+
+/* who needs big picture anyways */
+.titlebarcontrols_GamepadUIToggle_3LKQ3 {
+  display: none !important;
+}
+
+/* currency color */
+.titlebarcontrols_AccountMenu_3yD46 .titlebarcontrols_WalletBalance_2jphj {
+  color: var(--walkytalky) !important;
+}
+
+/* steam avatarholder */
+.steamdesktop_TitleBar_39oUC [class*="steamavatar_avatarHolder_"] {
+  margin: 0px 70px 0px -35px !important;
+}
+
+/* Developer console background */
+.console_Console_1fuML {
+  background-color: var(--starrynight) !important;
+}
+
+/* top bar background and bottom-border */
+.steamdesktop_TitleBar_39oUC {
+  background: var(--starrynight) !important;
+  border-bottom: solid 1px var(--borderpatrol) !important;
+}
+
+/* 2nd top bar dragging disabled */
+.steamdesktop_SuperNavBar_3Z3oh {
+  padding: 12px 0px 0px 11px !important;
+  -webkit-app-region: no-drag !important;
+}
+
+/* titlebar for buttons */
+.steamdesktop_TitleBar_39oUC .steamdesktop_TitleBarControls_1-9si {
+  margin-top: 54px !important;
+  z-index: 999 !important;
+  margin-right: -95px !important;
+}
+
+/* avatar and status */
+.steamdesktop_TitleBar_39oUC .titlebarcontrols_AccountMenu_3yD46 {
+  padding-right: 8px !important;
+  margin-left: 40px !important;
+  margin-right: 285px !important;
+  margin-top: -9px !important;
+  padding-right: 10px !important;
+  background-color: var(--deepsea) !important;
+  z-index: 999 !important;
+  border-radius: 60px !important;
+  color: var(--betablue) !important;
+  font-size: medium !important;
+  right: 0 !important;
+  position: absolute !important;
+  font-weight: bold !important;
+}
+
+/* hide arrow next to avatar name */
+.titlebarcontrols_AccountMenu_3yD46 .titlebarcontrols_Chevron_3x51w {
+  display: none !important;
+}
+
+.steamdesktop_TitleBar_39oUC .steamavatar_avatarHolder_1YGAH.X-Small {
+  margin-right: 15px !important;
+}
+
+.steamdesktop_TitleBar_39oUC .offline [class*="steamavatar_avatarStatus_"] {
+  width: 10px !important;
+  height: 10px !important;
+  left: 15px !important;
+  top: 15px !important;
+  z-index: 2 !important;
+  border: solid 3px var(--darksky) !important;
+  background: var(--betablue) !important;
+}
+
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8 .SVGIcon_Notification path, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8:hover .SVGIcon_Notification path {
+  fill: var(--betablue) !important;
+}
+
+.steamdesktop_TitleBar_39oUC .online [class*="steamavatar_avatarStatus_"] {
+  width: 10px !important;
+  height: 10px !important;
+  left: 15px !important;
+  top: 15px !important;
+  z-index: 2 !important;
+  border: solid 3px var(--darksky) !important;
+  background: var(--betablue) !important;
+}
+
+.steamdesktop_TitleBar_39oUC .ingame [class*="steamavatar_avatarStatus_"] {
+  width: 10px !important;
+  height: 10px !important;
+  left: 15px !important;
+  top: 15px !important;
+  z-index: 2 !important;
+  border: solid 3px var(--darksky) !important;
+  background: var(--betablue) !important;
+}
+
+.bottombar_BottomBar_3vCzS {
+  /* bottom bar to top */
+  background: var(--darksky) !important;
+  margin-top: 41px !important;
+  right: 0 !important;
+  margin-right: 52px !important;
+  position: fixed !important;
+  top: 0 !important;
+}
+
+.bottombar_DownloadStatusContent_ip-YZ .bottombar_Queue_3wJnT {
+  font-size: 0px !important;
+}
+
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I .titlebarcontrols_Icon_34bQc, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk .titlebarcontrols_Icon_34bQc {
+  color: var(--walkytalky) !important;
+}
+
+.bottombar_DetailedDownloadProgress_2VtAq .bottombar_Icon_1KrJ3 {
+  display: none !important;
+}
+
+.bottombar_ProgressBarWrapper_2_Fom { 
+  margin-top: -5px !important;
+}
+
+.bottombar_DetailedDownloadProgress_2VtAq {
+  max-width: 250px !important;
+  margin-left: 5px !important;
+}
+
+.bottombar_AddGameButton_2foCk .bottombar_Icon_1KrJ3, .bottombar_Icon_1KrJ3, .bottombar_FriendsButton_1TdaA .bottombar_Text_3OhUx {
+  margin-bottom: 2px !important;
+}
+
+.bottombar_AddGameButton_2foCk .bottombar_Text_3OhUx, .bottombar_FriendsButton_1TdaA .bottombar_Text_3OhUx {
+  display: none !important;
+}
+
+.bottombar_DownloadStatusContent_ip-YZ {
+  margin-bottom: 2px !important;
+  max-width: 90px !important;
+}
+
+.bottombar_DetailedDownloadProgress_2VtAq .bottombar_IconBevel_21vPQ {
+  background-image: none !important;
+}
+
+.bottombar_DownloadStatusContent_ip-YZ .bottombar_Status_1sCy- {
+  font-size: 0px !important;
+}
+
+.libraryassetimage_Container_1R9r2 {
+  margin-top: 2px !important;
+}
+
+
+.bottombar_AddGameButton_2foCk .bottombar_Icon_1KrJ3, .bottombar_FriendsButton_1TdaA .bottombar_Icon_1KrJ3, .bottombar_DownloadStatusContent_ip-YZ .bottombar_Queue_3wJnT, .bottombar_DownloadStatusContent_ip-YZ .bottombar_Icon_1KrJ3  {
+  color: var(--walkytalky) !important;
+}
+
+.menu_MenuPopup_3pofG {
+  background: var(--darksky) !important;
+}
+
+html.client_chat_frame body, html.web_chat_frame body {
+  background: var(--darksky) !important;
+}
+
+
+.menu_MenuItem_2jXHP.menu_Separator_21GPY {
+  border-bottom: 0px !important;
+}
+
+.DesktopUI .contextmenu_contextMenu_LQkrb {
+  background: var(--darksky) !important;
+}
+
+
+.pagedsettings_PagedSettingsDialog_PageListColumn_RTicB {
+  background: var(--darksky) !important;
+}
+
+.pagedsettings_PagedSettingsDialog_PageContent_1I3Ni.DesktopUI, .DesktopUI .pagedsettings_PagedSettingsDialog_PageContent_1I3Ni {
+  background: var(--darksky) !important;
+}
+
+.gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorStandard_3s1Rk::after {
+  background: var(--darksky) !important;
+}
+
+html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenuItem_pFo3k:hover {
+  color: var(--walkytalky) !important;
+  background: var(--slowevening) !important;
+}
