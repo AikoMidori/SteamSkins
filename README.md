@@ -6,6 +6,11 @@ With Steam's new beta and introduction to full css clients, and the removal of V
 - Adds support for new Steam Beta ChromiumUI update as of 2023-04-27 with a new beta v1 release of Fluent for Steam.
 - Installation for stable version of Steam is the same as previous release (actually, nothing changes), while you must follow new instructions below if you are participating in Steam Beta.
 
+<b>TO-DO & TO-COME</b>:
+- Live updates
+- css to scss
+- clean code & snippets
+
 # Credits
 The Skins are fully developed by me, and are part of pre-existing communities:
   - [Fluent for Steam by Opurojogo](https://www.fluentforsteam.io/)
