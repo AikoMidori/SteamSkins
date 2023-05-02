@@ -72,13 +72,13 @@
   line-height: 1px !important;
   right: 0 !important;
   position: absolute !important;
-  margin-right: 405px !important;
+  margin-right: 385px !important;
   font-size: 0px !important;
   background-repeat: no-repeat !important;
-  filter: invert(60%) !important;
   padding: 10px 0px 0px 0px !important;
+  filter:invert(100%) !important;
   background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/More%20Horizontal/SVG/ic_fluent_more_horizontal_24_filled.svg") !important;
-  background-size: 24px !important;
+  background-size: 26px !important;
 }
 
 /* root menu button image */
@@ -152,14 +152,17 @@
 }
 
 .progressbar_ProgressBar_yZ55N {
-  width: 70% !important;
+  width: 80% !important;
   margin-left: 25px !important;
 }
 
+.titlebarcontrols_NotificationsButton_RtSv3 {
+  padding: 0px 0px !important;
+}
 
 .titlebarcontrols_NotificationsButton_RtSv3 .titlebarcontrols_Icon_34bQc {
-  width: 24px !important;
-  height: 24px !important;
+  width: 20px !important;
+  height: 20px !important;
 }
 
 /* Downloads button */
@@ -171,7 +174,7 @@
   max-height: 30px !important;
   border-radius: 4px !important;
   right: 0 !important;
-  margin-right: 175px !important;
+  margin-right: 120px !important;
   position: fixed !important;
   margin-top: -8px !important;
   -webkit-app-region: no-drag !important;
@@ -188,7 +191,9 @@
 /* -------------------------EXPIRIMENTAL-------------------------*/
   
 /* old root menu buttons removed */
-/* [class*="rootmenu_RootMenuButton_"]:nth-of-type(2), */ [class*="rootmenu_RootMenuButton_"]:nth-of-type(3), [class*="rootmenu_RootMenuButton_"]:nth-of-type(4), [class*="rootmenu_RootMenuButton_"]:nth-of-type(5) {
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(3),
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(4), 
+[class*="rootmenu_RootMenuButton_"]:nth-of-type(5) {
   display: none !important;
 }
 
@@ -217,11 +222,29 @@
   margin-top: -3px !important;
 }
 
+/* notification button replacement */
+.titlebarcontrols_NotificationButtonContainer_3mGEz {
+  right: 0 !important;
+  padding: 0 0px 0 0px !important;
+  min-width: 24px !important;
+  min-height: 30px !important;
+  max-height: 30px !important;
+  position: absolute !important;
+  margin-right: 230px !important;
+  border-radius: 4px !important;
+  height: fit-content !important;
+  background: transparent !important;
+  margin-top: -13px !important;
+  right: 0px !important;
+}
+
+
 .supernav_SuperNavMenu_7AlhC .supernav_MenuButton_19axK {
   color: var(--transtrollor) !important;
 }
 
-.supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK, .supernav_MenuButton_19axK:hover {
+.supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK,
+.supernav_MenuButton_19axK:hover {
   /* background: #1e1e2f !important; */
   border-radius: 6px !important;
   padding: 0px 3px 5px 3px !important;
@@ -240,8 +263,9 @@
   background: var(--betablue) !important;
 }
 
-.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8:hover {
-  background: var(--darksky) !important;
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8,
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8:hover {
+  background: transparent !important;
 }
 
 .supernav_Arrow_25lBL {
@@ -256,15 +280,6 @@
 
 .steamdesktop_LocalContentContainer_RGNMW .steamdesktop_URLBarReplacement_2Cmrn {
   display: none !important;
-}
-
-/* lets keep the notification button */
-.titlebarcontrols_NotificationsButton_RtSv3 {
-  border-radius: 4px !important;
-  margin-top: 4px !important;
-  height: 30px !important;
-  background: var(--darksky) !important;
-  color: var(--walkytalky) !important;
 }
 
 /* announcements are lame */
@@ -312,20 +327,22 @@
 }
 
 /* avatar and status */
+/* name font size */
 .steamdesktop_TitleBar_39oUC .titlebarcontrols_AccountMenu_3yD46 {
-  padding-right: 8px !important;
-  margin-left: 40px !important;
-  margin-right: 285px !important;
-  margin-top: -9px !important;
-  padding-right: 10px !important;
-  background-color: var(--deepsea) !important;
-  z-index: 999 !important;
-  border-radius: 60px !important;
+  background: var(--deepsea) !important;
+  font-size: 16px !important;
+  border-radius: 40px !important;
   color: var(--betablue) !important;
-  font-size: medium !important;
-  right: 0 !important;
-  position: absolute !important;
+  margin-right: 265px !important;
+  margin-top: 8px !important;
   font-weight: bold !important;
+  font-size: medium !important;
+}
+
+/* remove bell background */
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk,
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I:hover, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:hover {
+  background: var(--darksky) !important;
 }
 
 /* hide arrow next to avatar name */
@@ -347,7 +364,8 @@
   background: var(--betablue) !important;
 }
 
-.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8 .SVGIcon_Notification path, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8:hover .SVGIcon_Notification path {
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8 .SVGIcon_Notification path,
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8:hover .SVGIcon_Notification path {
   fill: var(--betablue) !important;
 }
 
@@ -376,16 +394,20 @@
   background: var(--darksky) !important;
   margin-top: 41px !important;
   right: 0 !important;
-  margin-right: 52px !important;
+  margin-right: 0px !important;
   position: fixed !important;
   top: 0 !important;
+  z-index: 999;
+  -webkit-app-region: no-drag !important;
 }
 
 .bottombar_DownloadStatusContent_ip-YZ .bottombar_Queue_3wJnT {
   font-size: 0px !important;
 }
 
-.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I .titlebarcontrols_Icon_34bQc, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk .titlebarcontrols_Icon_34bQc {
+/* notification icon color */
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I .titlebarcontrols_Icon_34bQc,
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk .titlebarcontrols_Icon_34bQc {
   color: var(--walkytalky) !important;
 }
 
@@ -402,11 +424,14 @@
   margin-left: 5px !important;
 }
 
-.bottombar_AddGameButton_2foCk .bottombar_Icon_1KrJ3, .bottombar_Icon_1KrJ3, .bottombar_FriendsButton_1TdaA .bottombar_Text_3OhUx {
+.bottombar_AddGameButton_2foCk .bottombar_Icon_1KrJ3,
+.bottombar_Icon_1KrJ3,
+.bottombar_FriendsButton_1TdaA .bottombar_Text_3OhUx {
   margin-bottom: 2px !important;
 }
 
-.bottombar_AddGameButton_2foCk .bottombar_Text_3OhUx, .bottombar_FriendsButton_1TdaA .bottombar_Text_3OhUx {
+.bottombar_AddGameButton_2foCk .bottombar_Text_3OhUx,
+.bottombar_FriendsButton_1TdaA .bottombar_Text_3OhUx {
   display: none !important;
 }
 
@@ -428,7 +453,10 @@
 }
 
 
-.bottombar_AddGameButton_2foCk .bottombar_Icon_1KrJ3, .bottombar_FriendsButton_1TdaA .bottombar_Icon_1KrJ3, .bottombar_DownloadStatusContent_ip-YZ .bottombar_Queue_3wJnT, .bottombar_DownloadStatusContent_ip-YZ .bottombar_Icon_1KrJ3  {
+.bottombar_AddGameButton_2foCk .bottombar_Icon_1KrJ3,
+.bottombar_FriendsButton_1TdaA .bottombar_Icon_1KrJ3,
+.bottombar_DownloadStatusContent_ip-YZ .bottombar_Queue_3wJnT,
+.bottombar_DownloadStatusContent_ip-YZ .bottombar_Icon_1KrJ3  {
   color: var(--walkytalky) !important;
 }
 
@@ -454,7 +482,8 @@ html.client_chat_frame body, html.web_chat_frame body {
   background: var(--darksky) !important;
 }
 
-.pagedsettings_PagedSettingsDialog_PageContent_1I3Ni.DesktopUI, .DesktopUI .pagedsettings_PagedSettingsDialog_PageContent_1I3Ni {
+.pagedsettings_PagedSettingsDialog_PageContent_1I3Ni.DesktopUI,
+.DesktopUI .pagedsettings_PagedSettingsDialog_PageContent_1I3Ni {
   background: var(--darksky) !important;
 }
 
