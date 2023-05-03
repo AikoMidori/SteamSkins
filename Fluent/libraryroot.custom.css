@@ -71,13 +71,14 @@
   margin-top: 70px !important;
   line-height: 1px !important;
   right: 0 !important;
+  z-index: 999 !important;
   position: absolute !important;
-  margin-right: 385px !important;
+  margin-right: 25px !important;
   font-size: 0px !important;
   background-repeat: no-repeat !important;
   padding: 10px 0px 0px 0px !important;
   filter:invert(100%) !important;
-  background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/More%20Horizontal/SVG/ic_fluent_more_horizontal_24_filled.svg") !important;
+  background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/More%20Horizontal/SVG/ic_fluent_more_horizontal_48_regular.svg") !important;
   background-size: 26px !important;
 }
 
@@ -167,14 +168,14 @@
 
 /* Downloads button */
 .bottombar_DownloadStatus_2EQ7g {
-  padding: 0 6px 0 3px !important;
+  padding: 0 0 0 0 !important;
   background-color: var(--darksky) !important;
   min-width: 24px !important;
   min-height: 30px !important;
   max-height: 30px !important;
   border-radius: 4px !important;
   right: 0 !important;
-  margin-right: 120px !important;
+  margin-right: 170px !important;
   position: fixed !important;
   margin-top: -8px !important;
   -webkit-app-region: no-drag !important;
@@ -182,7 +183,7 @@
 
 /* Downloads Text */
 .bottombar_DownloadStatusContent_ip-YZ .bottombar_Queue_3wJnT::after {
-  content: "Downloads" !important;
+  content: "" !important;
   font-size: 13px !important;
   padding-left: 30px;
   color: white !important;
@@ -230,7 +231,7 @@
   min-height: 30px !important;
   max-height: 30px !important;
   position: absolute !important;
-  margin-right: 230px !important;
+  margin-right: 220px !important;
   border-radius: 4px !important;
   height: fit-content !important;
   background: transparent !important;
@@ -278,6 +279,7 @@
   margin-top: 10px !important;
 }
 
+/* removes library gap */
 .steamdesktop_LocalContentContainer_RGNMW .steamdesktop_URLBarReplacement_2Cmrn {
   display: none !important;
 }
@@ -295,6 +297,11 @@
 /* currency color */
 .titlebarcontrols_AccountMenu_3yD46 .titlebarcontrols_WalletBalance_2jphj {
   color: var(--walkytalky) !important;
+}
+
+/* removes the fake reality glasses */
+.titlebarcontrols_Button_2Szzh.titlebarcontrols_VRToggle_3lRfT {
+  display: none;
 }
 
 /* steam avatarholder */
@@ -322,7 +329,7 @@
 /* titlebar for buttons */
 .steamdesktop_TitleBar_39oUC .steamdesktop_TitleBarControls_1-9si {
   margin-top: 54px !important;
-  z-index: 999 !important;
+  z-index: 900 !important;
   margin-right: -95px !important;
 }
 
@@ -333,10 +340,11 @@
   font-size: 16px !important;
   border-radius: 40px !important;
   color: var(--betablue) !important;
-  margin-right: 265px !important;
-  margin-top: 8px !important;
+  margin-right: 255px !important;
+  margin-top: 5px !important;
   font-weight: bold !important;
   font-size: medium !important;
+  padding: 0 10px 0 0 !important;
 }
 
 /* remove bell background */
@@ -350,7 +358,7 @@
   display: none !important;
 }
 
-.steamdesktop_TitleBar_39oUC .steamavatar_avatarHolder_1YGAH.X-Small {
+.steamdesktop_TitleBar_39oUC .steamavatar_avatarHolder_1YGAH {
   margin-right: 15px !important;
 }
 
@@ -394,7 +402,7 @@
   background: var(--darksky) !important;
   margin-top: 41px !important;
   right: 0 !important;
-  margin-right: 0px !important;
+  margin-right: 60px !important;
   position: fixed !important;
   top: 0 !important;
   z-index: 999;
@@ -432,6 +440,7 @@
 
 .bottombar_AddGameButton_2foCk .bottombar_Text_3OhUx,
 .bottombar_FriendsButton_1TdaA .bottombar_Text_3OhUx {
+  /* removes top bar button text */
   display: none !important;
 }
 
