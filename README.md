@@ -21,18 +21,28 @@ Bew releases of Fluent & Metro are being developed by @AikoMidori and it require
 
 
 # Patching
-<b>USAGE</b> (for Steam Beta):
+<b>Millennium</b> (for Steam Beta):
 
 1. Install Millenium Patcher from [here](https://github.com/ShadowMonster99/millennium-steam-patcher/releases)
-1. Copy all the DLL files to your steam root directory and copy the skins folder into steamui directory.
+2. Copy all the DLL files to your steam root directory and copy the skins folder into steamui directory.
 3. Proceed into your skins folder and rename skin-example to Fluent or Metro, afterwards open settings.json and set `"active-skin": "skin-example",`
 to `"active-skin": "Fluent",` or `"active-skin": "Metro"`, and change `true` to `false`. `"show-console": false,`
 4. Download my files, and replace the Metro or Fluent folder you just created, click replace all when prompted.
-5. Create a shortcut of steam.exe, then run it with the following command line arguments: -cef-enable-debugging.
-You should now see the Fluent or Metro skin.
+5. Done, Start Steam and you should now see the Fluent or Metro skin.
 
 Keep in mind that the Patcher and Steam's Beta are still in the first stage, expect glitches and bugs.
 More information about patching can be found [here](https://github.com/ShadowMonster99/millennium-steam-patcher/)
+
+<b>SteamFriendsPatcher(SFP)</b> (for Steam Beta):
+
+1. Install SFP Patcher from [here](https://github.com/PhantomGamers/SFP/releases)
+2. Extract the SFP folder to the desktop or any other place easily accessible to you.
+3. Proceed into your skins folder and rename skin-example to Fluent or Metro.
+4. Download my files, and replace the Metro or Fluent folder you just created, click replace all when prompted.
+5. Done, Start Steam and you should now see the Fluent or Metro skin.
+
+Keep in mind that the Patcher and Steam's Beta are still in the first stage, expect glitches and bugs.
+More information about patching can be found [here](https://github.com/PhantomGamers/SFP#readme)
 
 # Skins
 
