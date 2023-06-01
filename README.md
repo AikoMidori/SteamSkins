@@ -17,7 +17,7 @@ The Skins are fully developed by me, and are part of pre-existing communities:
   - [Unofficial Metro for Steam](https://steamcommunity.com/groups/metroskin)
 
 These skins originate from the baseUI of the Metro for Steam 4.4 by minischetti and Unofficial Patch MetroSkin from RedSigma.
-Bew releases of Fluent & Metro are being developed by @AikoMidori and it requires prior installation of the Millenium Patcher by @ShadowMonster99.
+New releases of Fluent & Metro are being developed by @AikoMidori and it requires prior installation of the Millenium Patcher by @ShadowMonster99 or SFP by @PhantomGamers
 
 
 # Patching
