@@ -33,7 +33,7 @@ to `"active-skin": "Fluent",` or `"active-skin": "Metro"`, and change `true` to 
 Keep in mind that the Patcher and Steam's Beta are still in the first stage, expect glitches and bugs.
 More information about patching can be found [here](https://github.com/ShadowMonster99/millennium-steam-patcher/)
 
-## <b>SteamFriendsPatcher(SFP)</b> (for Steam Beta):
+## <b>SteamFriendsPatcher(SFP)</b>
 
 1. Install SFP Patcher from [here](https://github.com/PhantomGamers/SFP/releases)
 2. Extract the SFP folder to the desktop or any other place easily accessible to you.
