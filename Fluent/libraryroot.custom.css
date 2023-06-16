@@ -1,12 +1,7 @@
-/* !!! DO NOT EDIT THESE !!! DO NOT EDIT THESE !!! */
-@import url('https://shiinaskins.com/steam-library/remote!url=master&css/live.css');
-@import url('config.css');
-/* !!! DO NOT EDIT THESE !!! DO NOT EDIT THESE !!! */
-
 *{  /* Disable Shadows & Transitions */
-    transition: 0s !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important; 
+  transition: 0s !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; 
 }
 
 /* ===== CREDITS  =====
@@ -43,13 +38,14 @@
 /* Root menu button */
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(1)::after {
   content: "Fluent for Steam" !important;
-  margin-left: 30px !important;
+  margin-left: 28px !important;
   font-size: 13px !important;
+  margin-top: -15px !important;
 }
 
 /* root menu button image */
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(1) {
-  margin-top: 1px !important;
+  margin-top: 12px !important;
   line-height: 5px !important;
   margin-right: 40px !important;
   font-size: 0px !important;
@@ -59,16 +55,16 @@
 }
 
 /* Root menu button */
-[class*="rootmenu_RootMenuButton_"]:nth-of-type(2)::after {
+/* [class*="rootmenu_RootMenuButton_"]:nth-of-type(2)::after {
   content: "" !important;
   margin-left: 30px !important;
   font-size: 13px !important;
   color: white !important;
-}
+} */
 
 /* root menu button image */
 [class*="rootmenu_RootMenuButton_"]:nth-of-type(2) {
-  margin-top: 70px !important;
+  /* margin-top: 70px !important;
   line-height: 1px !important;
   right: 0 !important;
   z-index: 999 !important;
@@ -79,7 +75,8 @@
   padding: 10px 0px 0px 0px !important;
   filter:invert(100%) !important;
   background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/More%20Horizontal/SVG/ic_fluent_more_horizontal_48_regular.svg") !important;
-  background-size: 26px !important;
+  background-size: 26px !important; */
+  display: none !important;
 }
 
 /* root menu button image */
@@ -122,7 +119,7 @@
   background-repeat: no-repeat !important;
   background-image: url("https://svgshare.com/i/sgV.svg") !important;
   background-size: 24px !important;
-  margin-right: 5px !important;
+  margin-right: 15px !important;
   margin-bottom: -10px !important;
   padding: 0 0 0 0 !important;
   margin-left: 7px !important;
@@ -146,15 +143,20 @@
 
 /* Downloads button icon */
 .bottombar_DownloadStatusContent_ip-YZ {
+  width: 1000% !important;
   background-repeat: no-repeat !important;
-  background-image: url("https://svgshare.com/i/sfj.svg") !important;
+  background-image: none !important;
   background-size: 24px !important;
-  margin-top: 5px !important;
+  margin-top: -33px !important;
+  margin-right: 90% !important;
+  position: fixed !important;
+  -webkit-app-region: drag !important;
 }
 
 .progressbar_ProgressBar_yZ55N {
-  width: 80% !important;
-  margin-left: 25px !important;
+  width: 100% !important;
+  margin-left: 0px !important;
+  height: 10px !important;
 }
 
 .titlebarcontrols_NotificationsButton_RtSv3 {
@@ -175,10 +177,9 @@
   max-height: 30px !important;
   border-radius: 4px !important;
   right: 0 !important;
-  margin-right: 170px !important;
   position: fixed !important;
   margin-top: -8px !important;
-  -webkit-app-region: no-drag !important;
+  -webkit-app-region: drag !important;
 }
 
 /* Downloads Text */
@@ -231,7 +232,7 @@
   min-height: 30px !important;
   max-height: 30px !important;
   position: absolute !important;
-  margin-right: 220px !important;
+  margin-right: 125px !important;
   border-radius: 4px !important;
   height: fit-content !important;
   background: transparent !important;
@@ -340,7 +341,7 @@
   font-size: 16px !important;
   border-radius: 40px !important;
   color: var(--betablue) !important;
-  margin-right: 255px !important;
+  margin-right: 165px !important;
   margin-top: 5px !important;
   font-weight: bold !important;
   font-size: medium !important;
@@ -362,6 +363,11 @@
   margin-right: 15px !important;
 }
 
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8 .SVGIcon_Notification path,
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8:hover .SVGIcon_Notification path {
+  fill: var(--betablue) !important;
+}
+
 .steamdesktop_TitleBar_39oUC .offline [class*="steamavatar_avatarStatus_"] {
   width: 10px !important;
   height: 10px !important;
@@ -369,12 +375,8 @@
   top: 15px !important;
   z-index: 2 !important;
   border: solid 3px var(--darksky) !important;
-  background: var(--betablue) !important;
-}
-
-.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8 .SVGIcon_Notification path,
-.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8:hover .SVGIcon_Notification path {
-  fill: var(--betablue) !important;
+  background: grey !important;
+  border-radius: 50% !important;
 }
 
 .steamdesktop_TitleBar_39oUC .online [class*="steamavatar_avatarStatus_"] {
@@ -385,6 +387,7 @@
   z-index: 2 !important;
   border: solid 3px var(--darksky) !important;
   background: var(--betablue) !important;
+  border-radius: 50% !important;
 }
 
 .steamdesktop_TitleBar_39oUC .ingame [class*="steamavatar_avatarStatus_"] {
@@ -394,23 +397,37 @@
   top: 15px !important;
   z-index: 2 !important;
   border: solid 3px var(--darksky) !important;
-  background: var(--betablue) !important;
+  background: green !important;
+  border-radius: 50% !important;
 }
 
 .bottombar_BottomBar_3vCzS {
   /* bottom bar to top */
   background: var(--darksky) !important;
-  margin-top: 41px !important;
+  margin-top: 35px !important;
   right: 0 !important;
-  margin-right: 60px !important;
+  padding-bottom: 4px !important;
+  padding-top: 5px !important;
+  margin-right: 0px !important;
+  padding-left: 25px !important;
   position: fixed !important;
   top: 0 !important;
-  z-index: 999;
+  z-index: 999 !important;
   -webkit-app-region: no-drag !important;
+}
+
+.steamavatar_avatar_1p_Qr {
+  border-radius: 50% !important;
 }
 
 .bottombar_DownloadStatusContent_ip-YZ .bottombar_Queue_3wJnT {
   font-size: 0px !important;
+}
+
+.bottombar_ProgressBarWrapper_2_Fom .bottombar_ProgressBar_wi0pD {
+  border-radius: 50px !important;
+  --color-progress-bar-background: #121212 !important;
+  --color-progress-bar-foreground: var(--betablue) !important;
 }
 
 /* notification icon color */
@@ -423,13 +440,9 @@
   display: none !important;
 }
 
-.bottombar_ProgressBarWrapper_2_Fom { 
-  margin-top: -5px !important;
-}
-
 .bottombar_DetailedDownloadProgress_2VtAq {
-  max-width: 250px !important;
-  margin-left: 5px !important;
+  max-width: 350px !important;
+  margin-left: 0px !important;
 }
 
 .bottombar_AddGameButton_2foCk .bottombar_Icon_1KrJ3,
@@ -442,11 +455,6 @@
 .bottombar_FriendsButton_1TdaA .bottombar_Text_3OhUx {
   /* removes top bar button text */
   display: none !important;
-}
-
-.bottombar_DownloadStatusContent_ip-YZ {
-  margin-bottom: 2px !important;
-  max-width: 90px !important;
 }
 
 .bottombar_DetailedDownloadProgress_2VtAq .bottombar_IconBevel_21vPQ {
@@ -463,7 +471,6 @@
 
 
 .bottombar_AddGameButton_2foCk .bottombar_Icon_1KrJ3,
-.bottombar_FriendsButton_1TdaA .bottombar_Icon_1KrJ3,
 .bottombar_DownloadStatusContent_ip-YZ .bottombar_Queue_3wJnT,
 .bottombar_DownloadStatusContent_ip-YZ .bottombar_Icon_1KrJ3  {
   color: var(--walkytalky) !important;
