@@ -1,0 +1,20 @@
+{
+    "UseDefaultPatches": true,
+    "Patches": [
+        {
+          "MatchRegexString": "Menu$",
+          "TargetCss": "menus.custom.css",
+          "TargetJs": "libraryroot.custom.js"
+        },
+        {
+          "MatchRegexString": "Supernav$",
+          "TargetCss": "menus.custom.css",
+          "TargetJs": "libraryroot.custom.js"
+        },
+        {
+          "MatchRegexString": ".ModalDialogPopup",
+          "TargetCss": "menus.custom.css",
+          "TargetJs": "libraryroot.custom.js"
+        }
+      ]
+}
