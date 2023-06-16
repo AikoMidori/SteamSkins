@@ -21,7 +21,7 @@ New releases of Fluent & Metro are being developed by @AikoMidori and it require
 
 
 # Patching
-## <b>Millennium</b> (for Steam Beta):
+## <b>Millennium</b>
 
 1. Install Millenium Patcher from [here](https://github.com/ShadowMonster99/millennium-steam-patcher/releases)
 2. Copy all the DLL files to your steam root directory and copy the skins folder into steamui directory.
