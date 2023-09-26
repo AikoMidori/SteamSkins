@@ -267,6 +267,11 @@
   background-image: none !important;
 }
 
+.steamdesktop_LocalContentContainer_RGNMW .steamdesktop_URLBarReplacement_2Cmrn {
+  min-height: 0px;
+  height: 0px;
+}
+
 .libraryassetimage_Container_1R9r2 {
   margin-top: 2px !important;
 }
