@@ -33,7 +33,7 @@
   margin-left: 25px !important;
 }
 .rootmenu_RootMenuButton_2UyOB{
-  margin-top: -6px !important;
+  margin-top: 27px !important;
   line-height: 4px !important;
   margin-left: 3px !important;
   content: "----!" !important;
@@ -220,7 +220,7 @@
 }
 
 .bottombar_DownloadStatus_2EQ7g {
-  padding: 0 6px 0 16px !important;
+  padding: 0 10px 0 10px !important;
   background-color: #2e2e2f !important;
   min-width: 24px !important;
   min-height: 30px !important;
@@ -240,6 +240,7 @@
   min-height: 30px !important;
   max-height: 30px !important;
   border-radius: 2px !important;
+  margin-right: 4px;
 }
 
 .bottombar_DetailedDownloadProgress_2VtAq .bottombar_Icon_1KrJ3 {
@@ -265,6 +266,11 @@
 
 .bottombar_DetailedDownloadProgress_2VtAq .bottombar_IconBevel_21vPQ {
   background-image: none !important;
+}
+
+.steamdesktop_LocalContentContainer_RGNMW .steamdesktop_URLBarReplacement_2Cmrn {
+  min-height: 0px;
+  height: 0px;
 }
 
 .libraryassetimage_Container_1R9r2 {
